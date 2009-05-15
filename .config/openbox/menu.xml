@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<item label="Opera">
+			<action name="Execute">
+				<execute>
+					opera
+				</execute>
+			</action>
+		</item>
+		<item label="Firefox">
+			<action name="Execute">
+				<execute>
+					firefox
+				</execute>
+			</action>
+		</item>
+		<item label="Thunderbird">
+			<action name="Execute">
+				<execute>
+					thunderbird
+				</execute>
+			</action>
+		</item>
+		<item label="Thunar">
+			<action name="Execute">
+				<execute>
+					thunar
+				</execute>
+			</action>
+		</item>
+		<item label="Sonata">
+			<action name="Execute">
+				<execute>
+					sonata
+				</execute>
+			</action>
+		</item>
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>
+					urxvt
+				</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="7" label="Multimedia">
+			<item label="Digitale Bibliothek">
+				<action name="Execute">
+					<execute>
+						wine &quot;C:\Programme\Digitale Bibliothek\Digibib3.exe&quot;
+					</execute>
+				</action>
+			</item>
+			<item label="ALSA mixer">
+				<action name="Execute">
+					<execute>
+						xterm -e alsamixer
+					</execute>
+				</action>
+			</item>
+			<item label="MPplayer">
+				<action name="Execute">
+					<execute>
+						gmplayer
+					</execute>
+				</action>
+			</item>
+			<item label="K3b">
+				<action name="Execute">
+					<execute>
+						k3b
+					</execute>
+				</action>
+			</item>
+			<item label="Sonata">
+				<action name="Execute">
+					<execute>
+						sonata
+					</execute>
+				</action>
+			</item>
+			<item label="VLC media player">
+				<action name="Execute">
+					<execute>
+						vlc
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="6" label="Graphics">
+			<item label="The GIMP">
+				<action name="Execute">
+					<execute>
+						gimp
+					</execute>
+				</action>
+			</item>
+			<item label="XGlyph">
+				<action name="Execute">
+					<execute>
+						xglyph
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="5" label="Network">
+			<item label="vpn">
+				<action name="Execute">
+					<execute>
+						sudo vpnc marburg
+					</execute>
+				</action>
+			</item>
+			<item label="vpn disconnect">
+				<action name="Execute">
+					<execute>
+						sudo vpnc-disconnect
+					</execute>
+				</action>
+			</item>
+			<item label="Ebert">
+				<action name="Execute">
+					<execute>
+						sudo mount /home/thomas/Ebert
+					</execute>
+				</action>
+			</item>
+			<item label="Arbeitsgruppe">
+				<action name="Execute">
+					<execute>
+						sudo mount /home/thomas/Arbeitsgruppe
+					</execute>
+				</action>
+			</item>
+			<item label="SMB">
+				<action name="Execute">
+					<execute>
+						nautilus --no-desktop
+					</execute>
+				</action>
+			</item>
+			<item label="FireFox">
+				<action name="Execute">
+					<execute>
+						firefox
+					</execute>
+				</action>
+			</item>
+			<item label="Pidgin">
+				<action name="Execute">
+					<execute>
+						pidgin
+					</execute>
+				</action>
+			</item>
+			<item label="Thunderbird">
+				<action name="Execute">
+					<execute>
+						thunderbird
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="3" label="Office">
+			<item label="Adobe Reader 8">
+				<action name="Execute">
+					<execute>
+						acroread
+					</execute>
+				</action>
+			</item>
+			<item label="Geany">
+				<action name="Execute">
+					<execute>
+						geany
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice Base">
+				<action name="Execute">
+					<execute>
+						soffice -base
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice Calc">
+				<action name="Execute">
+					<execute>
+						soffice -calc
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice Draw">
+				<action name="Execute">
+					<execute>
+						soffice -draw
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice From Template">
+				<action name="Execute">
+					<execute>
+						soffice slot:5500
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice Impress">
+				<action name="Execute">
+					<execute>
+						soffice -impress
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice Math">
+				<action name="Execute">
+					<execute>
+						soffice -math
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice Printer Administration">
+				<action name="Execute">
+					<execute>
+						spadmin
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice Writer">
+				<action name="Execute">
+					<execute>
+						soffice -writer
+					</execute>
+				</action>
+			</item>
+			<item label="JabRef">
+				<action name="Execute">
+					<execute>
+						jabref
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="19" label="Shells">
+			<item label="innotek VirtualBox">
+				<action name="Execute">
+					<execute>
+						VirtualBox
+					</execute>
+				</action>
+			</item>
+			<item label="Terminal">
+				<action name="Execute">
+					<execute>
+						Terminal
+					</execute>
+				</action>
+			</item>
+			<item label="Thunar File Manager">
+				<action name="Execute">
+					<execute>
+						Thunar
+					</execute>
+				</action>
+			</item>
+			<item label="Xterm">
+				<action name="Execute">
+					<execute>
+						xterm
+					</execute>
+				</action>
+			</item>
+			<item label="XTerm (Unicode)">
+				<action name="Execute">
+					<execute>
+						uxterm
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="37" label="System">
+			<menu id="36" label="Settings">
+				<menu id="34" label="KDE">
+					<menu id="26" label="Components">
+						<item label="KDE Resources">
+							<action name="Execute">
+								<execute>
+									kcmshell kresources
+								</execute>
+							</action>
+						</item>
+					</menu>
+				</menu>
+				<menu id="35" label="Xfce">
+					<item label="Removable Drives and Media">
+						<action name="Execute">
+							<execute>
+								/usr/lib/xfce4/thunar-volman-settings
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Autostarted Applications">
+						<action name="Execute">
+							<execute>
+								xfce4-autostart-editor
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Desktop Settings">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show backdrop
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Display Settings">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show display
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Keyboard Settings">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show keyboard
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Menu Editor">
+						<action name="Execute">
+							<execute>
+								xfce4-menueditor
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Mixer Settings">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show sound
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Mouse Settings">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show mouse
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Panel Manager">
+						<action name="Execute">
+							<execute>
+								xfce4-panel -c
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Preferred Applications">
+						<action name="Execute">
+							<execute>
+								exo-preferred-applications
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Printing System Settings">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show printing_system
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Sessions and Startup Settings">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show session
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Settings Manager">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Splash Screen Settings">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show splash
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 User Interface Settings">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show ui
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Window Manager Settings">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show xfwm4
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Window Manager Tweaks">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show wmtweaks
+							</execute>
+						</action>
+					</item>
+					<item label="Xfce 4 Workspaces Settings">
+						<action name="Execute">
+							<execute>
+								xfce-setting-show workspaces
+							</execute>
+						</action>
+					</item>
+				</menu>
+				<item label="Openbox Configuration Manager">
+					<action name="Execute">
+						<execute>
+							obconf
+						</execute>
+					</action>
+				</item>
+				<item label="Xfontsel">
+					<action name="Execute">
+						<execute>
+							xfontsel
+						</execute>
+					</action>
+				</item>
+				<item label="Xvidtune">
+					<action name="Execute">
+						<execute>
+							xvidtune
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="Avahi Zeroconf Browser">
+				<action name="Execute">
+					<execute>
+						avahi-discover
+					</execute>
+				</action>
+			</item>
+			<item label="Bulk Rename">
+				<action name="Execute">
+					<execute>
+						/usr/lib/xfce4/ThunarBulkRename
+					</execute>
+				</action>
+			</item>
+			<item label="Manage Printing">
+				<action name="Execute">
+					<execute>
+						xdg-open http://localhost:631/
+					</execute>
+				</action>
+			</item>
+			<item label="NVIDIA X Server Settings">
+				<action name="Execute">
+					<execute>
+						nvidia-settings
+					</execute>
+				</action>
+			</item>
+			<item label="Top">
+				<action name="Execute">
+					<execute>
+						xterm -e top
+					</execute>
+				</action>
+			</item>
+			<item label="Xconsole">
+				<action name="Execute">
+					<execute>
+						xconsole
+					</execute>
+				</action>
+			</item>
+			<item label="Xload">
+				<action name="Execute">
+					<execute>
+						xload
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="40" label="OpenBox">
+			<menu id="client-list-menu"/>
+			<item label="Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<separator/>
+			<item label="Exit">
+				<action name="Exit"/>
+			</item>
+			<separator/>
+		</menu>
+	</menu>
+</openbox_menu>
